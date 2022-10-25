@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+.container {
+    width:80%;
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem 0;
+}
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    line-height: 1.5rem;
+}
+#button {
+    padding: .5rem .8rem;
+}
+.img-container {
+    width: 100%;
+}
+.img-container img {
+    object-fit: contain;
+    border:2px solid black;
+}
+
+.bg-one {
+    background-color: gray;
+}
